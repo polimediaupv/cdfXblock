@@ -11,3 +11,6 @@ See paellaxblock installation
     #.add a upload file button dat uploads the cdf file to /static and sets the url.
     #.add a default file and change the current one
 
+## Examples ##
+    You can find them at http://demonstrations.wolfram.com/
+
