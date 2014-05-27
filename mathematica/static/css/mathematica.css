@@ -1,0 +1,9 @@
+/* CSS for cdfXBlock */
+
+.mathematica_block .count {
+    font-weight: bold;
+}
+
+.mathematica_block p {
+    cursor: pointer;
+}
