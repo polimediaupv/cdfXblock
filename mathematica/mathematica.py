@@ -37,6 +37,7 @@ class cdfXBlock(XBlock):
         """
         html = self.resource_string("static/html/mathematica.html")
         frag = Fragment(html.format(self=self))
+        frag.add_css(self.resource_string("static/css/mathematica.css"))
         return frag
 
       # TO-DO: change this view to display your data your own way.
