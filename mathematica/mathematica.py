@@ -1,4 +1,10 @@
-"""TO-DO: Write a description of what this XBlock is."""
+# coding=utf-8
+__author__ = u"Leonardo Salom Muñoz"
+__credits__ = u"Leonardo Salom Muñoz"
+__version__ = u"0.0.3-SNAPSHOT"
+__maintainer__ = u"Leonardo Salom Muñoz"
+__email__ = u"leosamu@upv.es"
+__status__ = u"Development"
 
 import pkg_resources
 
@@ -74,8 +80,6 @@ class cdfXBlock(XBlock):
         return [
             ("cdfXBlock",
              """<vertical_demo>
-                <mathematica/>
-                <mathematica/>
                 <mathematica/>
                 </vertical_demo>
              """),
